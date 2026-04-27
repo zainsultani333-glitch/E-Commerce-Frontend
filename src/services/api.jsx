@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://e-commerce-backend-two-topaz.vercel.app/api",
 });
 
 // Helper to set Authorization header dynamically
